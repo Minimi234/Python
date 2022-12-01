@@ -4,10 +4,13 @@
 # - 7 -> да
 # - 1 -> нет
 
-num = int(imput('Введите день недели: '))
-7 > < 1  1 < > 7:
-    print('День в не диапазона недели')
-    7 == == 6  6 == == 7:
-    print('Этот день выходной')
-else:
-    print('Этот день рабочий')
+a=0
+dniNedeli = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ' ,'СБ' ,'ВС']
+if 1<=a<=7:
+    print(dniNedeli[a-1])
+    if a>5: 
+        print('vihodnoy')
+    else: 
+        print('rabochiy')
+else: 
+    print('oshibka')
